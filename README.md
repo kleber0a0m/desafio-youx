@@ -44,7 +44,7 @@ yarn add react-router-dom
 -----------------------------------
 
 
-### Backend
+## Backend
 No backend foi utilizado o framework Spring Boot e banco de dados PostgreSQL. 
 A API criada tem os seguintes endpoints:
 
