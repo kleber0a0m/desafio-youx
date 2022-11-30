@@ -392,7 +392,6 @@ function SalesTable(search: any) {
               <div>
                 <form className="row">
                   <div className="col-12">
-                    <h4 className="h4">Venda ######################</h4>
                     <p>Cliente: *</p>
                     <div className="input-group flex-nowrap">
                       <select
@@ -418,7 +417,7 @@ function SalesTable(search: any) {
                   </div>
 
                   <div className="col-sm-6 mt-4">
-                    <p>Data da Venda: SaleDate*</p>
+                    <p>Data da Venda:</p>
                     <div className="input-group flex-nowrap">
                       <DatePicker
                         value={saleDateEditSale}
