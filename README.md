@@ -26,7 +26,7 @@ Exemplo do caminho -> C:\Projetos\frontend> yarn
    
 
     yarn dev
-   O comando yarn dev permite acessar o site no navegado, normalmente o endereço é  http://localhost:5173/
+   O comando yarn dev permite acessar o site no navegador, normalmente o endereço é  http://localhost:5173/
    
 Caso apresente erro no react-router-dom basta executar o comando:
 ```
