@@ -58,44 +58,58 @@ O banco de dados PostgreSQL está hospedado no gratuitamente no **ElephantSQL**
 ##### Clientes
 
  - **[GET][/clients](https://desafio-youx.azurewebsites.net/clients)**
+ 
  Retorna um JSON com os clientes cadastrados, permite paginação.
 
   - **[GET][/clients/all](https://desafio-youx.azurewebsites.net/clients/all)**
+ 
  Retorna um JSON com todos os clientes cadastrados, não permite paginação.
  
    - **[GET]/clients/find/?search=**
+ 
  Retorna um JSON com o resultado da busca por CNPJ ou Nome de clientes, permite paginação.
  
     - **[GET]/clients/findById/{id}**
- Retorna um JSON com o cliente de id = `{id}`
+
+Retorna um JSON com o cliente de id = `{id}`
  
    - **[POST]/clients/add**
+
 Adiciona um cliente com base nas informações recebidas.
 
    - **[PUT]/clients/update/{id}**
+
 Edita o cliente de id = `{id}` com base nas informações recebidas.
 
    - **[DELETE]/clients/delete/{id}**
+
 Exclui o cliente de id = `{id}`.
 
 ##### Vendas
    - **[GET][/sales](https://desafio-youx.azurewebsites.net/sales)**
- Retorna um JSON com as vendas cadastrados, permite paginação.
+
+Retorna um JSON com as vendas cadastrados, permite paginação.
  
    - **[GET]/sales/find/?search=**
- Retorna um JSON com o as vendas relacionadas com o Cliente que tenha contenham `{search}` no nome.
+
+Retorna um JSON com o as vendas relacionadas com o Cliente que tenha contenham `{search}` no nome.
 
    - **[GET]/sales/findById/{id}**
- Retorna um JSON com o cliente de id = `{id}`
+
+Retorna um JSON com o cliente de id = `{id}`
 
    - **[POST]/sales/add**
+
 Adiciona uma venda com base nas informações recebidas.
 
    - **[PUT]/sales/update/{id}**
+
 Edita o a venda de id = `{id}` com base nas informações recebidas.
 
    - **[DELETE]/sales/delete/{id}**
+
 Exclui a venda de id = `{id}`.
 
    - **[GET][/sales/report](https://desafio-youx.azurewebsites.net/sales/report)**
+ 
  Retorna um JSON com informações sobre quantidade vendida e o valor por mês.
