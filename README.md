@@ -51,7 +51,7 @@ A API criada tem os seguintes endpoints:
 ### Acesse o site:
 O backend está hospedado na **Azure** usando os créditos de uma conta educacional, você pode tentar acessar no link abaixo.
 
-[**Clique aqui**](https://desafio-youx.azurewebsites.net/)
+[**Clique aqui**](https://desafio-youx.azurewebsites.net/clients/all)
 
 O banco de dados PostgreSQL está hospedado no gratuitamente no **ElephantSQL**
 
