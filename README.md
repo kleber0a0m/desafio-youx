@@ -17,7 +17,7 @@ No frontend foi utilizado HTML, CSS, Bootstrap e Java Script, juntamente com o f
 
 #### Como executar:
 Com a pasta frontend já em seu computador, abra um terminal no seu interior e execute o comando a seguir:
-Ex: do caminho -> C:\Projetos\frontend> yarn
+Exemplo do caminho -> C:\Projetos\frontend> yarn
 
     yarn
     
