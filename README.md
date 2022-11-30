@@ -112,4 +112,4 @@ Exclui a venda de id = `{id}`.
 
    - **[GET][/sales/report](https://desafio-youx.azurewebsites.net/sales/report)**
  
- Retorna um JSON com informações sobre quantidade vendida e o valor por mês.
+ Retorna informações sobre quantidade vendida e o valor por mês.
