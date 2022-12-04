@@ -69,7 +69,7 @@ O banco de dados PostgreSQL está hospedado no gratuitamente no **ElephantSQL**
  
  Retorna um JSON com o resultado da busca por CNPJ ou Nome de clientes, permite paginação.
  
-    - **[GET]/clients/findById/{id}**
+   - **[GET]/clients/findById/{id}**
 
 Retorna um JSON com o cliente de id = `{id}`
  
