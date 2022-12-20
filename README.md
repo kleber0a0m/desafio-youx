@@ -6,7 +6,7 @@ O sistema é capaz de armazenar as vendas e os seus respectivos clientes.
 
 
 ### Acesse o site:
-O site desenvolvido em react está disponível para acesso no link abaixo.
+O site desenvolvido em react está disponível para acesso no link abaixo, porém o backend não está mais disponível, você verá somente a interface.
 
 [**Clique aqui**](https://wnzsnh-5173.preview.csb.app/)
 
@@ -48,20 +48,13 @@ yarn add react-router-dom
 No backend foi utilizado o framework Spring Boot e banco de dados PostgreSQL. 
 A API criada tem os seguintes endpoints:
 
-### Acesse o site:
-O backend está hospedado na **Azure** usando os créditos de uma conta educacional, você pode tentar acessar no link abaixo.
-
-[**Clique aqui**](https://desafio-youx.azurewebsites.net/clients/all)
-
-O banco de dados PostgreSQL está hospedado no gratuitamente no **ElephantSQL**
-
 ##### Clientes
 
- - **[GET][/clients](https://desafio-youx.azurewebsites.net/clients)**
+ - **[GET][/clients]**
  
  Retorna um JSON com os clientes cadastrados, permite paginação.
 
-  - **[GET][/clients/all](https://desafio-youx.azurewebsites.net/clients/all)**
+  - **[GET][/clients/all]**
  
  Retorna um JSON com todos os clientes cadastrados, não permite paginação.
  
@@ -86,7 +79,7 @@ Edita o cliente de id = `{id}` com base nas informações recebidas.
 Exclui o cliente de id = `{id}`.
 
 ##### Vendas
-   - **[GET][/sales](https://desafio-youx.azurewebsites.net/sales)**
+   - **[GET][/sales]**
 
 Retorna um JSON com as vendas cadastrados, permite paginação.
  
@@ -110,6 +103,6 @@ Edita o a venda de id = `{id}` com base nas informações recebidas.
 
 Exclui a venda de id = `{id}`.
 
-   - **[GET][/sales/report](https://desafio-youx.azurewebsites.net/sales/report)**
+   - **[GET][/sales/report]**
  
  Retorna informações sobre quantidade vendida e o valor por mês.
