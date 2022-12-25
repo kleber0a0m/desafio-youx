@@ -1,4 +1,5 @@
 
+
 # 👨‍💻Olá 👋
 ## Desafio youx
 Esse projeto é uma aplicação web completa com frontend, backend.
@@ -26,7 +27,7 @@ Exemplo do caminho -> C:\Projetos\frontend> yarn
    
 
     yarn dev
-   O comando yarn dev permite acessar o site no navegador, normalmente o endereço é  http://localhost:5173/
+   O comando yarn dev permite acessar o site no navegador, normalmente o endereço é  `http://localhost:5173/`
    
 Caso apresente erro no react-router-dom basta executar o comando:
 ```
@@ -47,6 +48,10 @@ yarn add react-router-dom
 ## Backend
 No backend foi utilizado o framework Spring Boot e banco de dados PostgreSQL. 
 A API criada tem os seguintes endpoints:
+
+Exemplo de teste:
+
+      http://localhost:8080/sales
 
 ##### Clientes
 
