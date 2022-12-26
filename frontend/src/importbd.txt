@@ -1,8 +1,54 @@
-Gerar dados para teste
+Dados para teste 1 :
+
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (1, '12345678901234', 'joao@email.com', 'João da Silva', '1234567890', 'SP');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (2, '23456789012345', 'maria@email.com', 'Maria José', '2345678901', 'RJ');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (3, '34567890123456', 'jose@email.com', 'José da Costa', '3456789012', 'MG');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (4, '45678901234567', 'ana@email.com', 'Ana Maria', '4567890123', 'RS');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (5, '56789012345678', 'pedro@email.com', 'Pedro Rodrigues', '5678901234', 'PR');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (6, '67890123456789', 'carla@email.com', 'Carla Souza', '6789012345', 'SC');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (7, '78901234567890', 'bruno@email.com', 'Bruno Santos', '7890123456', 'PE');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (8, '89012345678901', 'fernanda@email.com', 'Fernanda Oliveira', '8901234567', 'DF');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (9, '90123456789012', 'lucas@email.com', 'Lucas Silva', '9012345678', 'GO');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (10, '01234567890123', 'julia@email.com', 'Julia Santos', '0123456789', 'ES');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (11, '12345678901234', 'andre@email.com', 'André Oliveira', '1234567890', 'MS');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (12, '23456789012345', 'renata@email.com', 'Renata Almeida', '2345678901', 'AM');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (13, '34567890123456', 'thiago@email.com', 'Thiago Martins', '3456789012', 'BA');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (14, '45678901234567', 'carlos@email.com', 'Carlos Souza', '4567890123', 'CE');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (15, '56789012345678', 'rafael@email.com', 'Rafael Costa', '5678901234', 'MA');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (16, '67890123456789', 'camila@email.com', 'Camila Silva', '6789012345', 'PA');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (17, '78901234567890', 'lucia@email.com', 'Lucia Oliveira', '7890123456', 'PB');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (18, '89012345678901', 'guilherme@email.com', 'Guilherme Almeida', '8901234567', 'PI');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (19, '90123456789012', 'beatriz@email.com', 'Beatriz Santos', '9012345678', 'RN');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (20, '01234567890123', 'henrique@email.com', 'Henrique Martins', '0123456789', 'RO');
+INSERT INTO public.tb_client(id, cnpj, email, name, phone, uf) VALUES (21, '12345678901234', 'isabela@email.com', 'Isabela Oliveira', '1234567890', 'RR');
 
 
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (1, '2022-03-15', 100, 'Aguardando pagamento', 6);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (2, '2022-07-27', 150, 'Pagamento aprovado', 2);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (3, '2022-04-11', 120, 'Aguardando envio', 3);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (4, '2022-06-19', 75, 'À caminho', 9);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (5, '2022-02-28', 200, 'Finalizado', 15);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (6, '2022-08-12', 150, 'Aguardando pagamento', 1);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (7, '2022-01-30', 125, 'Pagamento aprovado', 2);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (8, '2022-05-17', 100, 'Aguardando envio', 2);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (9, '2022-09-05', 75, 'À caminho', 9);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (10, '2022-12-01', 100, 'Finalizado', 3);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (11, '2022-01-11', 100, 'Aguardando pagamento', 15);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (12, '2022-01-12', 150, 'Pagamento aprovado', 12);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (13, '2022-01-13', 120, 'Aguardando envio', 16);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (14, '2022-01-14', 75, 'À caminho', 4);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (15, '2022-01-15', 200, 'Finalizado', 21);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (16, '2022-01-16', 150, 'Aguardando pagamento', 6);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (17, '2022-01-17', 125, 'Pagamento aprovado', 7);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (18, '2022-01-18', 100, 'Aguardando envio', 12);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (19, '2022-01-19', 75, 'À caminho', 15);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (20, '2022-01-20', 100, 'Finalizado', 18);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (21, '2022-03-15', 100, 'Aguardando pagamento', 19);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (22, '2022-07-27', 150, 'Pagamento aprovado', 2);
+INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (23, '2022-04-11', 120, 'Aguardando envio', 3);
 
 
+Dados para teste 2:
 #include <stdio.h>
 
 int main()
@@ -339,6 +385,3 @@ INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (2
 INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (2097,  '2097-01-01', 2097, 'TESTE', 1025);
 INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (2098,  '2098-01-01', 2098, 'TESTE', 1025);
 INSERT INTO public.tb_sale(id, date, sale_value, situation, client_id) VALUES (2099,  '2099-01-01', 2099, 'TESTE', 1025);
-
-
-
