@@ -9,10 +9,6 @@ O sistema é capaz de armazenar as vendas e os seus respectivos clientes.
 ### Acesse o site:
 O site desenvolvido em react está disponível para acesso abaixo, com alguns dados fixos pois o backend não está implementado no link a seguir, você verá somente a interface, as função de cadastrar, editar e deletar não estão operantes abaixo, caso queira ver a aplicação funcionado em sua completude baixe os arquivos e execute em seu computador.
 
-[**Clique aqui**](https://wnzsnh-5173.preview.csb.app/)
-
-O código está hospedado gratuitamente no site **CodeSandbox**.
-
 ## Frontend
 No frontend foi utilizado HTML, CSS, Bootstrap e Java Script, juntamente com o framework react.
 
